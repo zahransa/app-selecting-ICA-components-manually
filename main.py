@@ -13,4 +13,4 @@ ica.exclude = [0, 1]
 #ica.exclude = config['exclude']
 print('test')
 #
-ica.save('out_dir/ica.fif',,overwrite=True)
+ica.save('out_dir/ica.fif',overwrite=True)
