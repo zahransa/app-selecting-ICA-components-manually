@@ -7,10 +7,10 @@ with open('config.json','r') as config_f:
     config = json.load(config_f)
 
 
-fname = config['fif']
+fname = config['ica']
 ica=mne.preprocessing.read_ica(fname, verbose=None)
 ica.exclude = [0, 1]
 #ica.exclude = config['exclude']
 print('test')
 #
-ica.save('out_dir/ica.fif')
+ica.save('out_dir/ica.fif',,overwrite=True)
