@@ -1,13 +1,15 @@
 
 
-# Events
+# Selecting ICA components manually
+
 
 [![Abcdspec-compliant](https://img.shields.io/badge/ABCD_Spec-v1.1-green.svg)](https://github.com/brain-life/abcd-spec)
 [![Run on Brainlife.io](https://img.shields.io/badge/Brainlife-bl.app.530-blue.svg)](https://doi.org/10.25663/brainlife.app.530)
 
 Brainlife App to inorder to exclude ICA components manually based on `ica.exclude`.
 
-## app-events documentation
+## app-selecting-ICA-components-manually
+ documentation
 
 2) Input file is:
     * components to be excluded
